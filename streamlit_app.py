@@ -3,7 +3,7 @@ import streamlit as st
 import snowflake.connector
 import pandas
 
-streamlit.title('Zena\'s Amazing Athleisure Catalog')
+st.title('Zena\'s Amazing Athleisure Catalog')
 
 cnx = st.connection("snowflake")
 session = cnx.session
