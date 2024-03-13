@@ -32,3 +32,4 @@ if df2:
     st.write(df2[3])
 else:
     st.write("No details found for the selected option.")
+
