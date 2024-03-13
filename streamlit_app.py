@@ -1,7 +1,7 @@
 # Import python packages
-import streamlit as st
+import streamlit
 import snowflake.connector
-import pandas as pd
+import pandas
 
 st.title('Zena\'s Amazing Athleisure Catalog')
 
