@@ -33,3 +33,4 @@ if df2:
 else:
     st.write("No details found for the selected option.")
 
+my_cnx.close()
